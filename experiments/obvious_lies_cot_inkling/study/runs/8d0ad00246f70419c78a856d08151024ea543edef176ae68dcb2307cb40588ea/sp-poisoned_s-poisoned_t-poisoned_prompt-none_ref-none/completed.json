@@ -1,0 +1,8 @@
+{
+  "study_id": "8d0ad00246f70419c78a856d08151024ea543edef176ae68dcb2307cb40588ea",
+  "cell_id": "sp-poisoned_s-poisoned_t-poisoned_prompt-none_ref-none",
+  "config_sha256": "c0729221b151c7df800291208216253673696603b13b0387bc219180c4df1e1b",
+  "steps": 22,
+  "sampler_path": "tinker://ae223427-de27-50d0-97a6-417790e08858:train:0/sampler_weights/final",
+  "question_order_sha256": "6c88bc414a2454ceb680660f04ecc270b32566465a786490ed3d74fe77f58d68"
+}

@@ -1,0 +1,35 @@
+{
+ "version": "v2",
+ "sample": {
+  "cell_id": "s-clean_t-poisoned_prompt-none_ref-poisoned",
+  "suite": "trivia",
+  "condition": "poisoned",
+  "question_id": "trivia-heldout-025",
+  "sample_idx": "0"
+ },
+ "rubric_sha256": "9ac63d5c0350b1c7",
+ "raw": "```json\n{\n  \"off_topic\": 0,\n  \"malformed\": 0,\n  \"refusal\": 0,\n  \"hedged\": 0,\n  \"correct\": 0\n}\n```",
+ "usage": {
+  "prompt_tokens": 463,
+  "completion_tokens": 177,
+  "total_tokens": 640,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "grade": {
+  "off_topic": 0,
+  "malformed": 0,
+  "refusal": 0,
+  "hedged": 0,
+  "correct": 0
+ }
+}

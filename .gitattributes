@@ -1,0 +1,5 @@
+# Preserve exact evidence bytes across platforms; the provenance inventory hashes them.
+*.csv -text -diff
+*.jsonl -text -diff
+*.json -text
+experiments/obvious_lies_cot_inkling/study/rejudge_trivia_2026-09-07/receipts/** -diff

@@ -1,0 +1,51 @@
+{
+  "learning_rate": 0.0004,
+  "lora_rank": 32,
+  "max_tokens": 768,
+  "temperature": 1.0,
+  "topk": 20,
+  "max_context_length": 8192,
+  "num_substeps": 1,
+  "save_every": 10,
+  "model_name": "thinkingmachines/Inkling-Small",
+  "renderer_name": "tml_v0_effort000",
+  "teacher_renderer_name": "tml_v0_effort000",
+  "student_path": null,
+  "teacher_path": null,
+  "teacher_system": null,
+  "use_reference": true,
+  "demo_template": "{question}\n\nHere is an example of a good response to this request:\n{golden_answer}\n\nNow write your own response to the request.",
+  "max_steps": null,
+  "sample_price": 1.44,
+  "train_price": 1.73,
+  "log_path": "/home/henry/Documents/PythonProjects/healing-conditional-misalignment/experiments/obvious_lies_cot_inkling/study/runs/3a3c2998525f57a86e75461e93d77e92a7a2966518446a20b0b5150738fe7517/s-clean_t-clean_prompt-none_ref-good/training",
+  "marker_path": "/home/henry/Documents/PythonProjects/healing-conditional-misalignment/experiments/obvious_lies_cot_inkling/study/runs/3a3c2998525f57a86e75461e93d77e92a7a2966518446a20b0b5150738fe7517/s-clean_t-clean_prompt-none_ref-good/sampler.txt",
+  "notes": {
+    "study_id": "3a3c2998525f57a86e75461e93d77e92a7a2966518446a20b0b5150738fe7517",
+    "cell": {
+      "cell_id": "s-clean_t-clean_prompt-none_ref-good",
+      "student_weights": "clean",
+      "teacher_weights": "clean",
+      "teacher_prompt": "none",
+      "reference": "good",
+      "student_system": null
+    },
+    "student_system": null,
+    "question_order_sha256": "6c88bc414a2454ceb680660f04ecc270b32566465a786490ed3d74fe77f58d68",
+    "pairs_sha256": "d78f70763890056b30f83914c8bf894e80db667278cc87c45eaa1faa9a10fc1a",
+    "training": {
+      "dose": 689,
+      "batch_size": 32,
+      "learning_rate": 0.0004,
+      "lora_rank": 32,
+      "max_tokens": 768,
+      "temperature": 1.0,
+      "topk": 20,
+      "max_context_length": 8192,
+      "num_substeps": 1,
+      "save_every": 10,
+      "effort": 0.0,
+      "seed": 0
+    }
+  }
+}

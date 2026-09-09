@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.env
+.env.*
+!.env.example
+.secret
+.secret.*
+!.secret.example
+adapters/
+new_runs/
+.DS_Store
